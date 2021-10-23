@@ -2,17 +2,29 @@
 
 > Template for React JS projects + Vite
 
-## Installing
+## Creating a repository from this template
 
-1. [Create a repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+### Using `gh` tool
 
-2. Install dependencies
+```bash
+gh repo create --template antoniogiroz/template-vite-react-js
+```
+
+[More info](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+
+### or Cloning this repo using `degit`
+
+```bash
+npx degit antoniogiroz/template-vite-react-js
+```
+
+## Install dependencies
 
 ```bash
 npm install
 ```
 
-3. Test it
+## Running
 
 ```bash
 npm run dev
