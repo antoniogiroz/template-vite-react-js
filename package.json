@@ -6,7 +6,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "format": "prettier --write .",
-    "lint": "eslint --fix --ext --quiet",
+    "lint": "eslint --fix --ext .js,jsx --quiet",
     "prepare": "husky install"
   },
   "dependencies": {
