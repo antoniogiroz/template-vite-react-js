@@ -2,30 +2,38 @@
 
 > Template for React JS projects + Vite
 
-## Creating a repository from this template
+## Try it
 
-### Using `gh` tool
+### Github template
+
+[Create a repo from this template on GitHub.](https://github.com/antoniogiroz/template-vite-react-js/generate)
+
+### Clone to local
 
 ```bash
-gh repo create --template antoniogiroz/template-vite-react-js
+npx degit antoniogiroz/template-vite-react-js my-app
+cd my-app
+pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
-[More info](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+## Usage
 
-### or Cloning this repo using `degit`
+### Development
 
 ```bash
-npx degit antoniogiroz/template-vite-react-js
+pnpm dev
 ```
 
-## Install dependencies
+### Build
 
 ```bash
-npm install
+pnpm build
 ```
 
-## Running
+And you will see the generated file in `dist` that ready to be served.
+
+### Serve dist
 
 ```bash
-npm run dev
+pnpm serve
 ```
